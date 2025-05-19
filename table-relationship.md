@@ -22,6 +22,7 @@ ADD category_id INT,
 ADD CONSTRAINT fk_category
     FOREIGN KEY (category_id) REFERENCES fla.categories(id);
 ```
+![One to Many](img/one-to-many-relation.png)
 
 ---
 
